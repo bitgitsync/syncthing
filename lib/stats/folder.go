@@ -9,8 +9,8 @@ package stats
 import (
 	"time"
 
-	//	"github.com/bitgitsync/syncthing/lib/db"
-	"github.com/syncthing/syncthing/lib/db"
+	"github.com/bitgitsync/syncthing/lib/db"
+	//	"github.com/syncthing/syncthing/lib/db"
 )
 
 type FolderStatistics struct {
