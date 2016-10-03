@@ -14,7 +14,8 @@ import (
 
 	"github.com/minio/sha256-simd"
 
-	"github.com/syncthing/syncthing/lib/rand"
+	//	"github.com/syncthing/syncthing/lib/rand"
+	"github.com/bitgitsync/syncthing/lib/rand"
 )
 
 const (

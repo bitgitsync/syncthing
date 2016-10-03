@@ -12,6 +12,8 @@ import (
 	"testing"
 	"time"
 
+	//	"github.com/bitgitsync/syncthing/lib/logger"
+
 	"github.com/syncthing/syncthing/lib/logger"
 )
 

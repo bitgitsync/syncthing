@@ -17,7 +17,8 @@ import (
 	"strings"
 
 	"github.com/calmh/du"
-	"github.com/syncthing/syncthing/lib/sync"
+	//	"github.com/syncthing/syncthing/lib/sync"
+	"github.com/bitgitsync/syncthing/lib/sync"
 )
 
 var ErrNoHome = errors.New("No home directory found - set $HOME (or the platform equivalent).")

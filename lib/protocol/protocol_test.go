@@ -13,7 +13,9 @@ import (
 	"testing/quick"
 	"time"
 
-	"github.com/syncthing/syncthing/lib/rand"
+	//	"github.com/syncthing/syncthing/lib/rand"
+
+	"github.com/bitgitsync/syncthing/lib/rand"
 )
 
 var (

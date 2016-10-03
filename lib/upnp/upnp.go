@@ -47,9 +47,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/syncthing/syncthing/lib/dialer"
-	"github.com/syncthing/syncthing/lib/nat"
-	"github.com/syncthing/syncthing/lib/sync"
+	//	"github.com/syncthing/syncthing/lib/dialer"
+	//	"github.com/syncthing/syncthing/lib/nat"
+	//	"github.com/syncthing/syncthing/lib/sync"
+
+	"github.com/bitgitsync/syncthing/lib/dialer"
+	"github.com/bitgitsync/syncthing/lib/nat"
+	"github.com/bitgitsync/syncthing/lib/sync"
 )
 
 func init() {

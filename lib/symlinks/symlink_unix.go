@@ -11,7 +11,8 @@ package symlinks
 import (
 	"os"
 
-	"github.com/syncthing/syncthing/lib/osutil"
+	//	"github.com/syncthing/syncthing/lib/osutil"
+	"github.com/bitgitsync/syncthing/lib/osutil"
 )
 
 var (

@@ -27,8 +27,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/syncthing/syncthing/lib/dialer"
-	"github.com/syncthing/syncthing/lib/signature"
+	//	"github.com/syncthing/syncthing/lib/dialer"
+	//	"github.com/syncthing/syncthing/lib/signature"
+
+	"github.com/bitgitsync/syncthing/lib/dialer"
+	"github.com/bitgitsync/syncthing/lib/signature"
 )
 
 const DisabledByCompilation = false

@@ -20,10 +20,16 @@ import (
 	"testing"
 
 	"github.com/d4l3k/messagediff"
-	"github.com/syncthing/syncthing/lib/ignore"
-	"github.com/syncthing/syncthing/lib/osutil"
-	"github.com/syncthing/syncthing/lib/protocol"
-	"github.com/syncthing/syncthing/lib/symlinks"
+	//	"github.com/syncthing/syncthing/lib/ignore"
+	//	"github.com/syncthing/syncthing/lib/osutil"
+	//	"github.com/syncthing/syncthing/lib/protocol"
+	//	"github.com/syncthing/syncthing/lib/symlinks"
+
+	"github.com/bitgitsync/syncthing/lib/ignore"
+	"github.com/bitgitsync/syncthing/lib/osutil"
+	"github.com/bitgitsync/syncthing/lib/protocol"
+	"github.com/bitgitsync/syncthing/lib/symlinks"
+
 	"golang.org/x/text/unicode/norm"
 )
 

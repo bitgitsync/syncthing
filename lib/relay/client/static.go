@@ -9,10 +9,15 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/syncthing/syncthing/lib/dialer"
-	syncthingprotocol "github.com/syncthing/syncthing/lib/protocol"
-	"github.com/syncthing/syncthing/lib/relay/protocol"
-	"github.com/syncthing/syncthing/lib/sync"
+	//	"github.com/syncthing/syncthing/lib/dialer"
+	//	syncthingprotocol "github.com/syncthing/syncthing/lib/protocol"
+	//	"github.com/syncthing/syncthing/lib/relay/protocol"
+	//	"github.com/syncthing/syncthing/lib/sync"
+
+	"github.com/bitgitsync/syncthing/lib/dialer"
+	syncthingprotocol "github.com/bitgitsync/syncthing/lib/protocol"
+	"github.com/bitgitsync/syncthing/lib/relay/protocol"
+	"github.com/bitgitsync/syncthing/lib/sync"
 )
 
 type staticClient struct {

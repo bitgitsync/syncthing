@@ -8,7 +8,9 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/syncthing/syncthing/lib/relay/protocol"
+	//	"github.com/syncthing/syncthing/lib/relay/protocol"
+
+	"github.com/bitgitsync/syncthing/lib/relay/protocol"
 )
 
 type relayClientFactory func(uri *url.URL, certs []tls.Certificate, invitations chan protocol.SessionInvitation, timeout time.Duration) RelayClient

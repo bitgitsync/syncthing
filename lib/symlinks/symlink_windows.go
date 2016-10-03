@@ -12,6 +12,7 @@ import (
 	"os"
 	"path/filepath"
 
+	//	"github.com/bitgitsync/syncthing/lib/osutil"
 	"github.com/syncthing/syncthing/lib/osutil"
 
 	"syscall"

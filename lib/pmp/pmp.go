@@ -14,7 +14,9 @@ import (
 
 	"github.com/AudriusButkevicius/go-nat-pmp"
 	"github.com/jackpal/gateway"
-	"github.com/syncthing/syncthing/lib/nat"
+
+	//	"github.com/syncthing/syncthing/lib/nat"
+	"github.com/bitgitsync/syncthing/lib/nat"
 )
 
 func init() {

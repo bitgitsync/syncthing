@@ -10,7 +10,8 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/syncthing/syncthing/lib/dialer"
+	//	"github.com/syncthing/syncthing/lib/dialer"
+	"github.com/bitgitsync/syncthing/lib/dialer"
 )
 
 // TCPPing returns the duration required to establish a TCP connection

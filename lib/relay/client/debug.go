@@ -6,7 +6,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/syncthing/syncthing/lib/logger"
+	//	"github.com/syncthing/syncthing/lib/logger"
+
+	"github.com/bitgitsync/syncthing/lib/logger"
 )
 
 var (

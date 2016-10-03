@@ -38,7 +38,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/syncthing/syncthing/lib/nat"
+	//	"github.com/syncthing/syncthing/lib/nat"
+	"github.com/bitgitsync/syncthing/lib/nat"
 )
 
 // An IGD is a UPnP InternetGatewayDevice.
