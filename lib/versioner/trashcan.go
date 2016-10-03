@@ -13,7 +13,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/syncthing/syncthing/lib/osutil"
+	//	"github.com/syncthing/syncthing/lib/osutil"
+	"github.com/bitgitsync/syncthing/lib/osutil"
 )
 
 func init() {

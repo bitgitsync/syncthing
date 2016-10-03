@@ -14,7 +14,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/syncthing/syncthing/lib/symlinks"
+	//	"github.com/syncthing/syncthing/lib/symlinks"
+	"github.com/bitgitsync/syncthing/lib/symlinks"
 )
 
 func TestIgnores(t *testing.T) {

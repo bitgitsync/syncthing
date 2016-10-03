@@ -26,9 +26,13 @@ import (
 	"time"
 	"unicode"
 
-	"github.com/syncthing/syncthing/lib/osutil"
-	"github.com/syncthing/syncthing/lib/rc"
-	"github.com/syncthing/syncthing/lib/symlinks"
+	//	"github.com/syncthing/syncthing/lib/osutil"
+	//	"github.com/syncthing/syncthing/lib/rc"
+	//	"github.com/syncthing/syncthing/lib/symlinks"
+
+	"github.com/bitgitsync/syncthing/lib/osutil"
+	"github.com/bitgitsync/syncthing/lib/rc"
+	"github.com/bitgitsync/syncthing/lib/symlinks"
 )
 
 func init() {
