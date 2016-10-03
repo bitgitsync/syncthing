@@ -16,7 +16,8 @@ import (
 
 	"golang.org/x/net/proxy"
 
-	"github.com/syncthing/syncthing/lib/logger"
+	//	"github.com/syncthing/syncthing/lib/logger"
+	"github.com/bitgitsync/syncthing/lib/logger"
 )
 
 var (

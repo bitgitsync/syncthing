@@ -9,7 +9,9 @@ package discover
 import (
 	"time"
 
-	"github.com/syncthing/syncthing/lib/protocol"
+	//	"github.com/syncthing/syncthing/lib/protocol"
+	"github.com/bitgitsync/syncthing/lib/protocol"
+
 	"github.com/thejerf/suture"
 )
 

@@ -14,8 +14,12 @@ import (
 	"testing"
 
 	"github.com/d4l3k/messagediff"
-	"github.com/syncthing/syncthing/lib/db"
-	"github.com/syncthing/syncthing/lib/protocol"
+
+	//	"github.com/syncthing/syncthing/lib/db"
+	//	"github.com/syncthing/syncthing/lib/protocol"
+
+	"github.com/bitgitsync/syncthing/lib/db"
+	"github.com/bitgitsync/syncthing/lib/protocol"
 )
 
 var remoteDevice0, remoteDevice1 protocol.DeviceID

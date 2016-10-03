@@ -19,7 +19,10 @@ import proto "github.com/gogo/protobuf/proto"
 import fmt "fmt"
 import math "math"
 import _ "github.com/gogo/protobuf/gogoproto"
-import protocol "github.com/syncthing/syncthing/lib/protocol"
+
+//import protocol "github.com/syncthing/syncthing/lib/protocol"
+
+import protocol "github.com/bitgitsync/syncthing/lib/protocol"
 
 import io "io"
 

@@ -13,7 +13,9 @@ import (
 	stdsync "sync"
 	"time"
 
-	"github.com/syncthing/syncthing/lib/sync"
+	//	"github.com/syncthing/syncthing/lib/sync"
+
+	"github.com/bitgitsync/syncthing/lib/sync"
 )
 
 type EventType int

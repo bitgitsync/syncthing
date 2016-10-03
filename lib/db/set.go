@@ -16,10 +16,15 @@ import (
 	stdsync "sync"
 	"sync/atomic"
 
-	"github.com/syncthing/syncthing/lib/fs"
-	"github.com/syncthing/syncthing/lib/osutil"
-	"github.com/syncthing/syncthing/lib/protocol"
-	"github.com/syncthing/syncthing/lib/sync"
+	//	"github.com/syncthing/syncthing/lib/fs"
+	//	"github.com/syncthing/syncthing/lib/osutil"
+	//	"github.com/syncthing/syncthing/lib/protocol"
+	//	"github.com/syncthing/syncthing/lib/sync"
+
+	"github.com/bitgitsync/syncthing/lib/fs"
+	"github.com/bitgitsync/syncthing/lib/osutil"
+	"github.com/bitgitsync/syncthing/lib/protocol"
+	"github.com/bitgitsync/syncthing/lib/sync"
 )
 
 type FileSet struct {

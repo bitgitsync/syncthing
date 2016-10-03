@@ -14,8 +14,12 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"github.com/syncthing/syncthing/lib/protocol"
-	"github.com/syncthing/syncthing/lib/sync"
+	//	"github.com/syncthing/syncthing/lib/protocol"
+	//	"github.com/syncthing/syncthing/lib/sync"
+
+	"github.com/bitgitsync/syncthing/lib/protocol"
+	"github.com/bitgitsync/syncthing/lib/sync"
+
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/errors"
 	"github.com/syndtr/goleveldb/leveldb/iterator"

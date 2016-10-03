@@ -13,7 +13,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/syncthing/syncthing/lib/protocol"
+	//	"github.com/syncthing/syncthing/lib/protocol"
+	"github.com/bitgitsync/syncthing/lib/protocol"
 )
 
 func (f FileInfoTruncated) String() string {
