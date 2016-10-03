@@ -3,7 +3,7 @@ syntax = "proto3";
 package db;
 
 import "github.com/gogo/protobuf/gogoproto/gogo.proto";
-import "github.com/syncthing/syncthing/lib/protocol/bep.proto";
+import "github.com/bitgitsync/syncthing/lib/protocol/bep.proto";
 
 option (gogoproto.goproto_getters_all) = false;
 option (gogoproto.sizer_all) = false;

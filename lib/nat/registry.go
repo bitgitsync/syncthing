@@ -10,8 +10,7 @@ import (
 	"time"
 
 	//	"github.com/syncthing/syncthing/lib/sync"
-
-	"github.com/bitgitsync/syncthing/lib/logger"
+	"github.com/bitgitsync/syncthing/lib/sync"
 )
 
 type DiscoverFunc func(renewal, timeout time.Duration) []Device
