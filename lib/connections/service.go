@@ -16,17 +16,29 @@ import (
 	"time"
 
 	"github.com/juju/ratelimit"
-	"github.com/syncthing/syncthing/lib/config"
-	"github.com/syncthing/syncthing/lib/discover"
-	"github.com/syncthing/syncthing/lib/events"
-	"github.com/syncthing/syncthing/lib/nat"
-	"github.com/syncthing/syncthing/lib/protocol"
-	"github.com/syncthing/syncthing/lib/sync"
-	"github.com/syncthing/syncthing/lib/util"
+	//	"github.com/syncthing/syncthing/lib/config"
+	//	"github.com/syncthing/syncthing/lib/discover"
+	//	"github.com/syncthing/syncthing/lib/events"
+	//	"github.com/syncthing/syncthing/lib/nat"
+	//	"github.com/syncthing/syncthing/lib/protocol"
+	//	"github.com/syncthing/syncthing/lib/sync"
+	//	"github.com/syncthing/syncthing/lib/util"
+	//
+	//	// Registers NAT service providers
+	//	_ "github.com/syncthing/syncthing/lib/pmp"
+	//	_ "github.com/syncthing/syncthing/lib/upnp"
+
+	"github.com/bitgitsync/syncthing/lib/config"
+	"github.com/bitgitsync/syncthing/lib/discover"
+	"github.com/bitgitsync/syncthing/lib/events"
+	"github.com/bitgitsync/syncthing/lib/nat"
+	"github.com/bitgitsync/syncthing/lib/protocol"
+	"github.com/bitgitsync/syncthing/lib/sync"
+	"github.com/bitgitsync/syncthing/lib/util"
 
 	// Registers NAT service providers
-	_ "github.com/syncthing/syncthing/lib/pmp"
-	_ "github.com/syncthing/syncthing/lib/upnp"
+	_ "github.com/bitgitsync/syncthing/lib/pmp"
+	_ "github.com/bitgitsync/syncthing/lib/upnp"
 
 	"github.com/thejerf/suture"
 )

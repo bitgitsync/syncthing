@@ -19,9 +19,13 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/syncthing/syncthing/lib/protocol"
-	"github.com/syncthing/syncthing/lib/rand"
-	"github.com/syncthing/syncthing/lib/util"
+	//	"github.com/syncthing/syncthing/lib/protocol"
+	//	"github.com/syncthing/syncthing/lib/rand"
+	//	"github.com/syncthing/syncthing/lib/util"
+
+	"github.com/bitgitsync/syncthing/lib/protocol"
+	"github.com/bitgitsync/syncthing/lib/rand"
+	"github.com/bitgitsync/syncthing/lib/util"
 )
 
 const (

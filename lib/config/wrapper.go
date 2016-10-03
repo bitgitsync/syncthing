@@ -10,11 +10,17 @@ import (
 	"os"
 	"sync/atomic"
 
-	"github.com/syncthing/syncthing/lib/events"
-	"github.com/syncthing/syncthing/lib/osutil"
-	"github.com/syncthing/syncthing/lib/protocol"
-	"github.com/syncthing/syncthing/lib/sync"
-	"github.com/syncthing/syncthing/lib/util"
+	//	"github.com/syncthing/syncthing/lib/events"
+	//	"github.com/syncthing/syncthing/lib/osutil"
+	//	"github.com/syncthing/syncthing/lib/protocol"
+	//	"github.com/syncthing/syncthing/lib/sync"
+	//	"github.com/syncthing/syncthing/lib/util"
+
+	"github.com/bitgitsync/syncthing/lib/events"
+	"github.com/bitgitsync/syncthing/lib/osutil"
+	"github.com/bitgitsync/syncthing/lib/protocol"
+	"github.com/bitgitsync/syncthing/lib/sync"
+	"github.com/bitgitsync/syncthing/lib/util"
 )
 
 // The Committer interface is implemented by objects that need to know about

@@ -10,10 +10,14 @@ import (
 	"crypto/tls"
 	"net/url"
 	"time"
+	//
+	//	"github.com/syncthing/syncthing/lib/config"
+	//	"github.com/syncthing/syncthing/lib/dialer"
+	//	"github.com/syncthing/syncthing/lib/protocol"
 
-	"github.com/syncthing/syncthing/lib/config"
-	"github.com/syncthing/syncthing/lib/dialer"
-	"github.com/syncthing/syncthing/lib/protocol"
+	"github.com/bitgitsync/syncthing/lib/config"
+	"github.com/bitgitsync/syncthing/lib/dialer"
+	"github.com/bitgitsync/syncthing/lib/protocol"
 )
 
 const tcpPriority = 10
