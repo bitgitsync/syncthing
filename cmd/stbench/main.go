@@ -18,7 +18,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/syncthing/syncthing/lib/rc"
+	//	"github.com/syncthing/syncthing/lib/rc"
+	"github.com/bitgitsync/syncthing/lib/rc"
 )
 
 var homeDir = "h1"
