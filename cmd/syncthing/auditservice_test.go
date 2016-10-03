@@ -12,7 +12,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/syncthing/syncthing/lib/events"
+	//	"github.com/syncthing/syncthing/lib/events"
+	"github.com/bitgitsync/syncthing/lib/events"
 )
 
 func TestAuditService(t *testing.T) {

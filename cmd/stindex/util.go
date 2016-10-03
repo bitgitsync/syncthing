@@ -12,7 +12,8 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/syncthing/syncthing/lib/osutil"
+	//	"github.com/syncthing/syncthing/lib/osutil"
+	"github.com/bitgitsync/syncthing/lib/osutil"
 )
 
 func nulString(bs []byte) string {

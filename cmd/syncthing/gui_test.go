@@ -21,10 +21,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/d4l3k/messagediff"
-	"github.com/syncthing/syncthing/lib/config"
-	"github.com/syncthing/syncthing/lib/protocol"
-	"github.com/syncthing/syncthing/lib/sync"
+	//	"github.com/d4l3k/messagediff"
+	//	"github.com/syncthing/syncthing/lib/config"
+	//	"github.com/syncthing/syncthing/lib/protocol"
+	//	"github.com/syncthing/syncthing/lib/sync"
+
+	"github.com/bitgitsync/syncthing/lib/config"
+	"github.com/bitgitsync/syncthing/lib/protocol"
+	"github.com/bitgitsync/syncthing/lib/sync"
+
 	"github.com/thejerf/suture"
 )
 

@@ -27,10 +27,15 @@ import (
 
 	"github.com/oschwald/geoip2-golang"
 
-	"github.com/syncthing/syncthing/cmd/strelaypoolsrv/auto"
-	"github.com/syncthing/syncthing/lib/relay/client"
-	"github.com/syncthing/syncthing/lib/sync"
-	"github.com/syncthing/syncthing/lib/tlsutil"
+	//	"github.com/syncthing/syncthing/cmd/strelaypoolsrv/auto"
+	//	"github.com/syncthing/syncthing/lib/relay/client"
+	//	"github.com/syncthing/syncthing/lib/sync"
+	//	"github.com/syncthing/syncthing/lib/tlsutil"
+
+	"github.com/bitgitsync/syncthing/cmd/strelaypoolsrv/auto"
+	"github.com/bitgitsync/syncthing/lib/relay/client"
+	"github.com/bitgitsync/syncthing/lib/sync"
+	"github.com/bitgitsync/syncthing/lib/tlsutil"
 )
 
 type location struct {

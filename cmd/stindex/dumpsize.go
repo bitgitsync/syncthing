@@ -11,7 +11,10 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/syncthing/syncthing/lib/db"
+	//	"github.com/syncthing/syncthing/lib/db"
+	//	"github.com/syncthing/syncthing/lib/db"
+
+	"github.com/bitgitsync/syncthing/lib/db"
 )
 
 type SizedElement struct {

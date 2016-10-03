@@ -12,8 +12,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/syncthing/syncthing/lib/protocol"
-	"github.com/syncthing/syncthing/lib/scanner"
+	//	"github.com/syncthing/syncthing/lib/protocol"
+	//	"github.com/syncthing/syncthing/lib/scanner"
+
+	"github.com/bitgitsync/syncthing/lib/protocol"
+	"github.com/bitgitsync/syncthing/lib/scanner"
 )
 
 func main() {

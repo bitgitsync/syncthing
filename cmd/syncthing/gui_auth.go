@@ -13,10 +13,16 @@ import (
 	"strings"
 	"time"
 
-	"github.com/syncthing/syncthing/lib/config"
-	"github.com/syncthing/syncthing/lib/events"
-	"github.com/syncthing/syncthing/lib/rand"
-	"github.com/syncthing/syncthing/lib/sync"
+	//	"github.com/syncthing/syncthing/lib/config"
+	//	"github.com/syncthing/syncthing/lib/events"
+	//	"github.com/syncthing/syncthing/lib/rand"
+	//	"github.com/syncthing/syncthing/lib/sync"
+
+	"github.com/bitgitsync/syncthing/lib/config"
+	"github.com/bitgitsync/syncthing/lib/events"
+	"github.com/bitgitsync/syncthing/lib/rand"
+	"github.com/bitgitsync/syncthing/lib/sync"
+
 	"golang.org/x/crypto/bcrypt"
 )
 

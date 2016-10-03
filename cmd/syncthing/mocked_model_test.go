@@ -9,10 +9,15 @@ package main
 import (
 	"time"
 
-	"github.com/syncthing/syncthing/lib/db"
-	"github.com/syncthing/syncthing/lib/model"
-	"github.com/syncthing/syncthing/lib/protocol"
-	"github.com/syncthing/syncthing/lib/stats"
+	//	"github.com/syncthing/syncthing/lib/db"
+	//	"github.com/syncthing/syncthing/lib/model"
+	//	"github.com/syncthing/syncthing/lib/protocol"
+	//	"github.com/syncthing/syncthing/lib/stats"
+
+	"github.com/bitgitsync/syncthing/lib/db"
+	"github.com/bitgitsync/syncthing/lib/model"
+	"github.com/bitgitsync/syncthing/lib/protocol"
+	"github.com/bitgitsync/syncthing/lib/stats"
 )
 
 type mockedModel struct{}

@@ -20,7 +20,9 @@ import (
 
 	"github.com/golang/groupcache/lru"
 	"github.com/juju/ratelimit"
-	"github.com/syncthing/syncthing/lib/protocol"
+	//	"github.com/syncthing/syncthing/lib/protocol"
+	"github.com/bitgitsync/syncthing/lib/protocol"
+
 	"golang.org/x/net/context"
 )
 

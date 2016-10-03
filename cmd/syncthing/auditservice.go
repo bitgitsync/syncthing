@@ -10,7 +10,8 @@ import (
 	"encoding/json"
 	"io"
 
-	"github.com/syncthing/syncthing/lib/events"
+	//	"github.com/syncthing/syncthing/lib/events"
+	"github.com/bitgitsync/syncthing/lib/events"
 )
 
 // The auditService subscribes to events and writes these in JSON format, one

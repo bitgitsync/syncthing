@@ -16,7 +16,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/syncthing/syncthing/lib/symlinks"
+	//	"github.com/syncthing/syncthing/lib/symlinks"
+	"github.com/bitgitsync/syncthing/lib/symlinks"
+	//change import from syncthing to bitgitsync
 )
 
 func main() {

@@ -13,8 +13,12 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/syncthing/syncthing/lib/protocol"
-	"github.com/syncthing/syncthing/lib/tlsutil"
+	//	"github.com/syncthing/syncthing/lib/protocol"
+	//	"github.com/syncthing/syncthing/lib/tlsutil"
+
+	"github.com/bitgitsync/syncthing/lib/protocol"
+	"github.com/bitgitsync/syncthing/lib/tlsutil"
+
 	"github.com/thejerf/suture"
 )
 

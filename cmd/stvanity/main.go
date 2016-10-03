@@ -25,7 +25,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/syncthing/syncthing/lib/protocol"
+	//	"github.com/syncthing/syncthing/lib/protocol"
+
+	"github.com/bitgitsync/syncthing/lib/protocol"
 )
 
 type result struct {

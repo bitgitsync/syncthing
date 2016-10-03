@@ -19,12 +19,19 @@ import (
 	"time"
 
 	"github.com/minio/sha256-simd"
+	//
+	//	"github.com/syncthing/syncthing/lib/config"
+	//	"github.com/syncthing/syncthing/lib/dialer"
+	//	"github.com/syncthing/syncthing/lib/model"
+	//	"github.com/syncthing/syncthing/lib/protocol"
+	//	"github.com/syncthing/syncthing/lib/upgrade"
 
-	"github.com/syncthing/syncthing/lib/config"
-	"github.com/syncthing/syncthing/lib/dialer"
-	"github.com/syncthing/syncthing/lib/model"
-	"github.com/syncthing/syncthing/lib/protocol"
-	"github.com/syncthing/syncthing/lib/upgrade"
+	"github.com/bitgitsync/syncthing/lib/config"
+	"github.com/bitgitsync/syncthing/lib/dialer"
+	"github.com/bitgitsync/syncthing/lib/model"
+	"github.com/bitgitsync/syncthing/lib/protocol"
+	"github.com/bitgitsync/syncthing/lib/upgrade"
+
 	"github.com/thejerf/suture"
 )
 

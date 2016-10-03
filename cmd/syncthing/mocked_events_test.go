@@ -6,7 +6,9 @@
 
 package main
 
-import "github.com/syncthing/syncthing/lib/events"
+//import "github.com/syncthing/syncthing/lib/events"
+
+import "github.com/bitgitsync/syncthing/lib/events"
 
 type mockedEventSub struct{}
 

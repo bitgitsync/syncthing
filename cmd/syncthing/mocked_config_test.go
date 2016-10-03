@@ -7,8 +7,12 @@
 package main
 
 import (
-	"github.com/syncthing/syncthing/lib/config"
-	"github.com/syncthing/syncthing/lib/protocol"
+
+	//	"github.com/syncthing/syncthing/lib/config"
+	//	"github.com/syncthing/syncthing/lib/protocol"
+
+	"github.com/bitgitsync/syncthing/lib/config"
+	"github.com/bitgitsync/syncthing/lib/protocol"
 )
 
 type mockedConfig struct {

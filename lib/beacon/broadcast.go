@@ -11,7 +11,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/syncthing/syncthing/lib/sync"
+	//	"github.com/syncthing/syncthing/lib/sync"
+	"github.com/bitgitsync/syncthing/lib/sync"
+
 	"github.com/thejerf/suture"
 )
 

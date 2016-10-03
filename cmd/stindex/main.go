@@ -13,7 +13,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/syncthing/syncthing/lib/db"
+	//	"github.com/syncthing/syncthing/lib/db"
+	"github.com/bitgitsync/syncthing/lib/db"
 )
 
 func main() {

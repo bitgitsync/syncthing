@@ -13,10 +13,15 @@ import (
 	"os"
 	"strings"
 
-	"github.com/syncthing/syncthing/lib/config"
-	"github.com/syncthing/syncthing/lib/osutil"
-	"github.com/syncthing/syncthing/lib/rand"
-	"github.com/syncthing/syncthing/lib/sync"
+	//	"github.com/syncthing/syncthing/lib/config"
+	//	"github.com/syncthing/syncthing/lib/osutil"
+	//	"github.com/syncthing/syncthing/lib/rand"
+	//	"github.com/syncthing/syncthing/lib/sync"
+
+	"github.com/bitgitsync/syncthing/lib/config"
+	"github.com/bitgitsync/syncthing/lib/osutil"
+	"github.com/bitgitsync/syncthing/lib/rand"
+	"github.com/bitgitsync/syncthing/lib/sync"
 )
 
 // csrfTokens is a list of valid tokens. It is sorted so that the most

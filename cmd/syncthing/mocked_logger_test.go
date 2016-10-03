@@ -9,7 +9,9 @@ package main
 import (
 	"time"
 
-	"github.com/syncthing/syncthing/lib/logger"
+	//	"github.com/syncthing/syncthing/lib/logger"
+
+	"github.com/bitgitsync/syncthing/lib/logger"
 )
 
 type mockedLoggerRecorder struct{}

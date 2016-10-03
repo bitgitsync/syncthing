@@ -20,16 +20,28 @@ import (
 	"time"
 
 	"github.com/juju/ratelimit"
-	"github.com/syncthing/syncthing/lib/osutil"
-	"github.com/syncthing/syncthing/lib/relay/protocol"
-	"github.com/syncthing/syncthing/lib/tlsutil"
 
-	"github.com/syncthing/syncthing/lib/config"
-	"github.com/syncthing/syncthing/lib/nat"
-	_ "github.com/syncthing/syncthing/lib/pmp"
-	_ "github.com/syncthing/syncthing/lib/upnp"
+	//	"github.com/syncthing/syncthing/lib/osutil"
+	//	"github.com/syncthing/syncthing/lib/relay/protocol"
+	//	"github.com/syncthing/syncthing/lib/tlsutil"
+	//
+	//	"github.com/syncthing/syncthing/lib/config"
+	//	"github.com/syncthing/syncthing/lib/nat"
+	//	_ "github.com/syncthing/syncthing/lib/pmp"
+	//	_ "github.com/syncthing/syncthing/lib/upnp"
+	//
+	//	syncthingprotocol "github.com/syncthing/syncthing/lib/protocol"
 
-	syncthingprotocol "github.com/syncthing/syncthing/lib/protocol"
+	"github.com/bitgitsync/syncthing/lib/osutil"
+	"github.com/bitgitsync/syncthing/lib/relay/protocol"
+	"github.com/bitgitsync/syncthing/lib/tlsutil"
+
+	"github.com/bitgitsync/syncthing/lib/config"
+	"github.com/bitgitsync/syncthing/lib/nat"
+	_ "github.com/bitgitsync/syncthing/lib/pmp"
+	_ "github.com/bitgitsync/syncthing/lib/upnp"
+
+	syncthingprotocol "github.com/bitgitsync/syncthing/lib/protocol"
 )
 
 var (

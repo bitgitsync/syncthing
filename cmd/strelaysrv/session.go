@@ -13,9 +13,13 @@ import (
 	"time"
 
 	"github.com/juju/ratelimit"
-	"github.com/syncthing/syncthing/lib/relay/protocol"
+	//	"github.com/syncthing/syncthing/lib/relay/protocol"
+	//
+	//	syncthingprotocol "github.com/syncthing/syncthing/lib/protocol"
 
-	syncthingprotocol "github.com/syncthing/syncthing/lib/protocol"
+	"github.com/bitgitsync/syncthing/lib/relay/protocol"
+
+	syncthingprotocol "github.com/bitgitsync/syncthing/lib/protocol"
 )
 
 var (

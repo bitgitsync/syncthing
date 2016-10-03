@@ -13,8 +13,11 @@ import (
 	"log"
 	"os"
 
-	"github.com/syncthing/syncthing/lib/signature"
-	"github.com/syncthing/syncthing/lib/upgrade"
+	//	"github.com/syncthing/syncthing/lib/signature"
+	//	"github.com/syncthing/syncthing/lib/upgrade"
+
+	"github.com/bitgitsync/syncthing/lib/signature"
+	"github.com/bitgitsync/syncthing/lib/upgrade"
 )
 
 func main() {

@@ -17,9 +17,13 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/syncthing/syncthing/lib/auto"
-	"github.com/syncthing/syncthing/lib/config"
-	"github.com/syncthing/syncthing/lib/sync"
+	//	"github.com/syncthing/syncthing/lib/auto"
+	//	"github.com/syncthing/syncthing/lib/config"
+	//	"github.com/syncthing/syncthing/lib/sync"
+
+	"github.com/bitgitsync/syncthing/lib/auto"
+	"github.com/bitgitsync/syncthing/lib/config"
+	"github.com/bitgitsync/syncthing/lib/sync"
 )
 
 type staticsServer struct {

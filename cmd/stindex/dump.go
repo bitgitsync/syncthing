@@ -12,8 +12,11 @@ import (
 	"log"
 	"time"
 
-	"github.com/syncthing/syncthing/lib/db"
-	"github.com/syncthing/syncthing/lib/protocol"
+	//	"github.com/syncthing/syncthing/lib/db"
+	//	"github.com/syncthing/syncthing/lib/protocol"
+
+	"github.com/bitgitsync/syncthing/lib/db"
+	"github.com/bitgitsync/syncthing/lib/protocol"
 )
 
 func dump(ldb *db.Instance) {

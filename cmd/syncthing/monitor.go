@@ -17,8 +17,11 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/syncthing/syncthing/lib/osutil"
-	"github.com/syncthing/syncthing/lib/sync"
+	//	"github.com/syncthing/syncthing/lib/osutil"
+	//	"github.com/syncthing/syncthing/lib/sync"
+
+	"github.com/bitgitsync/syncthing/lib/osutil"
+	"github.com/bitgitsync/syncthing/lib/sync"
 )
 
 var (
