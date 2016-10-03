@@ -11,8 +11,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/syncthing/syncthing/lib/protocol"
-	"github.com/syncthing/syncthing/lib/rand"
+	//	"github.com/syncthing/syncthing/lib/protocol"
+	//	"github.com/syncthing/syncthing/lib/rand"
+
+	"github.com/bitgitsync/syncthing/lib/protocol"
+	"github.com/bitgitsync/syncthing/lib/rand"
 )
 
 func TestInMemoryIndexSorter(t *testing.T) {

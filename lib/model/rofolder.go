@@ -9,9 +9,13 @@ package model
 import (
 	"fmt"
 
-	"github.com/syncthing/syncthing/lib/config"
-	"github.com/syncthing/syncthing/lib/fs"
-	"github.com/syncthing/syncthing/lib/versioner"
+	//	"github.com/syncthing/syncthing/lib/config"
+	//	"github.com/syncthing/syncthing/lib/fs"
+	//	"github.com/syncthing/syncthing/lib/versioner"
+
+	"github.com/bitgitsync/syncthing/lib/config"
+	"github.com/bitgitsync/syncthing/lib/fs"
+	"github.com/bitgitsync/syncthing/lib/versioner"
 )
 
 func init() {

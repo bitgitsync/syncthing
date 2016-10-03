@@ -22,13 +22,22 @@ import (
 	"time"
 
 	"github.com/d4l3k/messagediff"
-	"github.com/syncthing/syncthing/lib/config"
-	"github.com/syncthing/syncthing/lib/connections"
-	"github.com/syncthing/syncthing/lib/db"
-	"github.com/syncthing/syncthing/lib/ignore"
-	"github.com/syncthing/syncthing/lib/osutil"
-	"github.com/syncthing/syncthing/lib/protocol"
-	srand "github.com/syncthing/syncthing/lib/rand"
+	//	"github.com/syncthing/syncthing/lib/config"
+	//	"github.com/syncthing/syncthing/lib/connections"
+	//	"github.com/syncthing/syncthing/lib/db"
+	//	"github.com/syncthing/syncthing/lib/ignore"
+	//	"github.com/syncthing/syncthing/lib/osutil"
+	//	"github.com/syncthing/syncthing/lib/protocol"
+	//	srand "github.com/syncthing/syncthing/lib/rand"
+
+	"github.com/bitgitsync/syncthing/lib/config"
+	"github.com/bitgitsync/syncthing/lib/connections"
+	"github.com/bitgitsync/syncthing/lib/db"
+	"github.com/bitgitsync/syncthing/lib/ignore"
+	"github.com/bitgitsync/syncthing/lib/osutil"
+	"github.com/bitgitsync/syncthing/lib/protocol"
+
+	srand "github.com/bitgitsync/syncthing/lib/rand"
 )
 
 var device1, device2 protocol.DeviceID

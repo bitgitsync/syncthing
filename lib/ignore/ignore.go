@@ -19,7 +19,8 @@ import (
 	"time"
 
 	"github.com/gobwas/glob"
-	"github.com/syncthing/syncthing/lib/sync"
+	//	"github.com/syncthing/syncthing/lib/sync"
+	"github.com/bitgitsync/syncthing/lib/sync"
 )
 
 const (

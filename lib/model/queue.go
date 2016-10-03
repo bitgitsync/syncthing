@@ -11,7 +11,9 @@ import (
 	"sort"
 	"time"
 
-	"github.com/syncthing/syncthing/lib/sync"
+	//	"github.com/syncthing/syncthing/lib/sync"
+
+	"github.com/bitgitsync/syncthing/lib/sync"
 )
 
 type jobQueue struct {

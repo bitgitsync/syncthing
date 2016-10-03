@@ -10,7 +10,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/syncthing/syncthing/lib/osutil"
+	//	"github.com/syncthing/syncthing/lib/osutil"
+	"github.com/bitgitsync/syncthing/lib/osutil"
 )
 
 // The database is where we store the virtual mtimes

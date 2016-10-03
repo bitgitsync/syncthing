@@ -9,7 +9,9 @@ package nat
 import (
 	"time"
 
-	"github.com/syncthing/syncthing/lib/sync"
+	//	"github.com/syncthing/syncthing/lib/sync"
+
+	"github.com/bitgitsync/syncthing/lib/logger"
 )
 
 type DiscoverFunc func(renewal, timeout time.Duration) []Device

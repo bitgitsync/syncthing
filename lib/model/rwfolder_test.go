@@ -11,11 +11,16 @@ import (
 	"path/filepath"
 	"testing"
 	"time"
+	//
+	//	"github.com/syncthing/syncthing/lib/db"
+	//	"github.com/syncthing/syncthing/lib/protocol"
+	//	"github.com/syncthing/syncthing/lib/scanner"
+	//	"github.com/syncthing/syncthing/lib/sync"
 
-	"github.com/syncthing/syncthing/lib/db"
-	"github.com/syncthing/syncthing/lib/protocol"
-	"github.com/syncthing/syncthing/lib/scanner"
-	"github.com/syncthing/syncthing/lib/sync"
+	"github.com/bitgitsync/syncthing/lib/db"
+	"github.com/bitgitsync/syncthing/lib/protocol"
+	"github.com/bitgitsync/syncthing/lib/scanner"
+	"github.com/bitgitsync/syncthing/lib/sync"
 )
 
 func init() {

@@ -7,7 +7,9 @@
 package model
 
 import (
-	"github.com/syncthing/syncthing/lib/config"
+	//	"github.com/syncthing/syncthing/lib/config"
+	"github.com/bitgitsync/syncthing/lib/config"
+
 	"math/rand"
 	"time"
 )
