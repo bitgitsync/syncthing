@@ -31,7 +31,9 @@ import (
 )
 
 var (
+	// build的命令行参数
 	versionRe = regexp.MustCompile(`-[0-9]{1,3}-g[0-9a-f]{5,10}`)
+	//版本号的正则表达式 格式限定
 	goarch    string
 	goos      string
 	noupgrade bool
