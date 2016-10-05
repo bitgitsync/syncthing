@@ -44,15 +44,17 @@ var (
 )
 
 type target struct {
+	// 生成目标文件的结构
 	name              string
 	buildPkg          string
 	binaryName        string
-	archiveFiles      []archiveFile
+	archiveFiles      []archiveFile // 嵌套文档结构
 	installationFiles []archiveFile
 	tags              []string
 }
 
 type archiveFile struct {
+	// 存档文件的结构
 	src  string
 	dst  string
 	perm os.FileMode
